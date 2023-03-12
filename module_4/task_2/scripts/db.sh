@@ -23,7 +23,7 @@ if [[ ! $1 ]]; then
                 if [[ ! -d "$dir" ]]; then
                     mkdir $dir
                 fi
-                
+
                 touch $path
                 echo "${path} created successfuly"
                 break;;
@@ -61,7 +61,7 @@ function add {
 
     read -p "Please type a role: " role
 
-    isLatinLetters $username
+    isLatinLetters $role
 
     if [[ "$?" == 1 ]]; then
         echo "Role must contains only latin letters"
