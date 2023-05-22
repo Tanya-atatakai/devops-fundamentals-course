@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PATH_TO_APP="../../../shop-angular-cloudfront"
+PATH_TO_APP="/Users/Tatiana_Priemova/Documents/Projects/learn/fe-app"
 
 BUILD_OUTPUT_PATH="dist"
 BUILD_FILE=$BUILD_OUTPUT_PATH/client-app.zip
